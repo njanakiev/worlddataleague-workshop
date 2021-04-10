@@ -1,0 +1,40 @@
+name: base
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - scipy
+  - requests
+  - datashader
+  - holoviews
+  - geoalchemy2
+  - descartes
+  - numpy
+  - python=3.9
+  - pandas
+  - numba
+  - geopandas
+  - matplotlib
+  - flask
+  - jupyterlab
+  - pyarrow
+  - sqlalchemy
+  - dask
+  - colorcet
+  - pyproj
+  - rasterio
+  - xarray
+  - bokeh
+  - conda
+  - geoviews
+  - shapely
+  - psycopg2
+  - xlrd
+  - h3-py
+  - mapclassify
+  - hdbscan
+  - mercantile
+  - contextily
+  - moviepy
+  - osmnx
+prefix: /home/nikolai/anaconda3/envs/gis
