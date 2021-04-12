@@ -39,6 +39,7 @@ dependencies:
   - moviepy
   - osmnx
   - rise
+  - scikit-learn
   - pip:
     - osmium
 prefix: /home/nikolai/anaconda3/envs/gis
