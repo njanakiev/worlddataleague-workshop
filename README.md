@@ -26,3 +26,17 @@ conda env create -f environment.yml
 conda activate wdl
 jupyter-lab
 ```
+
+# Data Preprocessing
+
+If you wish to preprocess the data yourself, you can run:
+
+```bash
+bash prepare-data.sh
+```
+
+Make sure to use the Anaconda environment. Tested on Ubuntu 20.04.
+
+
+# License 
+This project is licensed under the MIT license. See the [LICENSE](LICENSE) for details.
