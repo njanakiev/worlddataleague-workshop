@@ -1,12 +1,23 @@
 version: "3.7"
 
 services:
-    jupyter:
-        build:
-            context: .
-            dockerfile: ./Dockerfile
-        restart: unless-stopped
-        ports:
-            - 8900:8888
-        volumes:
-            - "../:/workspace"
+  jupyter:
+    build:
+      context: .
+      dockerfile: ./jupyter.dockerfile
+    restart: unless-stopped
+    ports:
+      - 8900:8888
+    volumes:
+      - "../:/workspace"
+
+  otp:
+    build:
+      context: .
+      dockerfile: ./opentripplanner.dockerfile
+    ports:
+      - 8080:8080
+    volumes:
+      - "../data:/data"
+    environment:
+      - JAVA_OPTIONS=-Xmx4G
