@@ -1,4 +1,6 @@
-# worlddataleague-2021
+# worlddataleague-workshop
+
+Workshop materials and slides for [World Data League](https://www.worlddataleague.com/).
 
 Working and Analysing OpenStreetMap for Data Science Projects
 
